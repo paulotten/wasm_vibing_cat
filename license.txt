@@ -1,0 +1,5 @@
+OpenSans-Regular.ttf is from https://fonts.google.com/specimen/Open+Sans and licensed under the Apache License, Version 2.0.
+
+cat.mp4 is of an unknown license.
+
+All other files are licensed under the MIT license.
