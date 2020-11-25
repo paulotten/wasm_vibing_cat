@@ -3,7 +3,18 @@
         <script src="https://unpkg.com/@ffmpeg/ffmpeg@0.9.5/dist/ffmpeg.min.js"></script>
         <script src="script.js"></script>
     </head>
-    <body>
-        <video id="output-video" controls loop></video>
+    <body onload="init()">
+        <video id="output-video" controls loop style="width: 100%; margin-bottom: 5px;"></video>
+        
+        <input id="cat" type="text" value="cat">
+        <input id="drummer" type="text" value="drummer">
+        <input id="drum" type="text" value="drum">
+        
+        <button id="make_meme">
+            Meme
+        </button>
+        
+        <pre id="log" style="width: 100%; height: 20%; overflow: scroll;">
+        </pre>
     </body>
 </html>
